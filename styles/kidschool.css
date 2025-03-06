@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+/* font family */
+
+
+.quicksand-normal {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+/* Shared style */
+
+.display-flex{
+    display: flex;
+}   
+.orange{
+    color:orange;
+}
+.skyblue{
+    color: #01ACFD;
+}
+.aqua{
+    color:aqua
+}
+.bright-blue{
+    color:#5A55F8;
+}
+
+/* nav style */
+
+nav{
+    max-width: 1160px;
+    margin: 0 auto;
+    border: 2px solid tomato;
+    justify-content:center;
+    align-items: center;
+    gap: 186px;
+    
+}
+.nav-logo{
+    justify-content: center;
+    align-items: center;
+}
+.nav-school{
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+
+nav ul{
+    gap:32px;
+}
+nav li{
+    list-style: none;
+    
+}
+nav li a{
+    text-decoration: none;
+    font-weight:700;
+    font-size: 1.25rem;
+}
+
+.nav-btn{
+    width:200px;
+    height: 50px;
+    padding: 10px 10px;
+    border:none;
+    border-radius: 12px;
+    background-color: orange;
+    font-size: 1.25rem;
+    font-weight: 600px;
+    color:#fff;
+}
+.nav-btn:hover{
+    background-color: rgb(255, 123, 0);
+}
+
+/* Banner style */
+
+.banner-container{
+    border:2px solid tomato;
+    max-width: 1160px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+}
+.banner-contant{
+        width:100%;
+}
+
+.banner-title{
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+    
+
+}
+.banner-btn{
+    width:200px;
+    height: 50px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    background-color: black;
+    color:#fff;
+    border:none;
+    border-radius: 12px;
+    padding: 10px 10px;
+    margin-top: 24px;
+
+}
+.banner-btn:hover{
+    background-color: rgba(0, 0, 0, 0.728);
+}
+
+/* Curriculum styles */
+
+.section-title{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 80px;
+    
+}
+
+.curriculum{
+    background-image: url(../assets/bg.png);
+    max-width:1440px; height:880px;
+    margin: 0 auto;
+    border:2px solid tomato;
+    padding: 60px 0px;
+    /* justify-content: center;
+    align-items: center; */
+
+    
+}
+.card-container{
+    max-width: 1160px;
+    height: 482px;
+    margin:0 auto;
+    border: 2px solid aquamarine;
+    gap: 28px;
+    text-align: center;
+   
+}
+.card{
+    width:368px;
+    border:2px solid aqua;
+    
+}
