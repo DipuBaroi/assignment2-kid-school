@@ -153,3 +153,7 @@ nav li a{
     border:2px solid aqua;
     
 }
+.arrow i{
+    background-color: orange;
+    width: 7px; height: 7px;
+}
