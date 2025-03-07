@@ -210,3 +210,54 @@ nav li a{
 .arrow-btn:hover{
     background-color: rgb(255, 128, 0);
 }
+
+
+/* Our stories style */
+
+.stories{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-image: url(../assets/bg.png), linear-gradient(#fff,rgb(236, 202, 144));
+    border: 2px solid red;
+}
+.story-section-title{
+    text-align: center;
+    font-size: 3rem;
+    font-weight:700;
+}
+.stories-container{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.story-card{
+    background-color: #fff;
+}
+.veiw-btn{
+    text-align: center;
+}
+
+
+/* Footer styles */
+
+.footer{
+    max-width: 1440px;
+    height:520px;
+    margin:0 auto;
+    background-color: rgba(1, 172, 253, 1);
+    border: 2px solid tomato;
+}
+.footer-section{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    width: 1080px; height: 225px;
+    border:2px solid tomato;
+}
+
+.old-school{
+    align-items: center;
+}
+.footer-description{
+    max-width:400px
+}
