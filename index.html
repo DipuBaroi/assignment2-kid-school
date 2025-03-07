@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kid School</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/kidschool.css">
     <script src="https://kit.fontawesome.com/71c993ed4c.js" crossorigin="anonymous"></script>
 </head>
@@ -43,27 +46,31 @@
          <section class="curriculum">
             <h2 class="section-title">Standard Curriculum</h2>
             <div class="card-container display-flex">
-                <div class="card">
+                <div class="card gradient-sky">
                     <img src="assets/kinder.png" alt="" class="card-img">
                     <h3 class="card-title">Kinder (3-6) Years</h3>
-                    <p class="card-description">A fun, playful place where young children learn and grow happily</p>
-                    <button class="card-button">Read More</button>
+                    <p id=" raleway-normal" class="card-description">A fun, playful place where young children (Student) learn and grow happily</p>
+                    <button class="card-btn skyblue">Read More</button>
                 </div>
-                <div class="card">
+                <div class="card gradient-orange">
                     <img src="assets/elementary.png" alt="" class="card-img">
                     <h3 class="card-title">Elementary School</h3>
-                    <p class="card-description">A foundational school where children develop basic skills and knowledge.</p>
-                    <button class="card-button">Read More</button>
+                    <p id=" raleway-normal" class="card-description">A foundational school where children (Student) develop basic skills and knowledge.</p>
+                    <button class="card-btn orange">Read More</button>
                 </div>
-                <div class="card">
+                <div class="card gradient-blue">
                     <img src="assets/middle.png" alt="" class="card-img">
                     <h3 class="card-title">Middle (10-16) Years</h3>
-                    <p class="card-description">A transition phase where students grow academically, socially, and emotionally.</p>
-                    <button class="card-button">Read More</button>
+                    <p id=" raleway-normal" class="card-description">A transition phase where students grow academically, socially, and emotionally.</p>
+                    <button class="card-btn bright-blue">Read More</button>
                 </div>
             </div>
-            <div class="arrow">
-                <i class="fa-solid fa-angle-left"></i><i class="fa-solid fa-angle-right"></i></div>
+            <!-- <div class="arrow">
+                <i class="fa-solid fa-angle-left"></i><i class="fa-solid fa-angle-right"></i> </div> -->
+            <div class="arrow display-flex">
+                <button class="arrow-btn"><</button>
+                <button class="arrow-btn">></button>
+            </div>
          </section>
 
          <!-- Stories section -->

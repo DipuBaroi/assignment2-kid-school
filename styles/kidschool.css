@@ -13,6 +13,14 @@
     font-style: normal;
   }
 
+
+ #raleway-normal {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
 /* Shared style */
 
 .display-flex{
@@ -150,10 +158,55 @@ nav li a{
 }
 .card{
     width:368px;
-    border:2px solid aqua;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+    padding:52px 42px;
+   
+    
     
 }
-.arrow i{
+.gradient-sky{
+    background:linear-gradient( rgba(222, 245, 255, 1), #ffffff);
+}
+.gradient-orange{
+    background:linear-gradient(rgba(255, 244, 220, 1),#ffff);
+}
+.gradient-blue{
+    background:linear-gradient(rgba(242, 232, 255, 1), #ffffff)
+}
+.card-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.card-description{
+    font-size: 1rem;
+    margin-bottom: 32px;
+}
+.card-btn{
+    border:none;
+    font-size: 1rem;
+    background-color: #ffff;
+}
+.arrow{
+    justify-content: center;
+    gap: 10px;
+    margin-top: 80px;
+    
+
+}
+.arrow-btn{
+    
+    width:60px; height:60px;
+    font-size: 3.5rem;
     background-color: orange;
-    width: 7px; height: 7px;
+    color:#ffffff;
+    border:none;
+    border-radius: 50%;
+
+
+}
+.arrow-btn:hover{
+    background-color: rgb(255, 128, 0);
 }
