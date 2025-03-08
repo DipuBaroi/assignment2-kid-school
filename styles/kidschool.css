@@ -243,21 +243,64 @@ nav li a{
 .footer{
     max-width: 1440px;
     height:520px;
-    margin:0 auto;
+    margin:0px auto;
     background-color: rgba(1, 172, 253, 1);
     border: 2px solid tomato;
 }
 .footer-section{
-    width: 100%;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 1080px; height: 225px;
-    border:2px solid tomato;
+    margin:125px auto;
+}
+footer .old-school img{
+    width: 80px;
+    height: 90px;
+    background-color: #ffff;
 }
 
 .old-school{
     align-items: center;
+    margin-bottom: 35px;
+}
+.title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    
 }
 .footer-description{
-    max-width:400px
+    max-width:400px;
+    font-size: 1.25rem;
+    color:#ffffff;
+
+}
+.about{
+    height: 100%;
+    
+}
+.about-title{
+    font-size: 1.5rem;
+    font-weight:700;
+    color:#ffffff;
+    margin-bottom: 32px;
+}
+footer .about ul li{
+    list-style:none;
+    margin-bottom:20px;
+    color:#ffff;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+footer .about ul{
+    margin-bottom: 20px;
+}
+.contact{
+    height:100%;
+}
+.contact-title{
+    font-size:1.625rem;
+    font-weight:700;
+    color:#fff;
+    margin-bottom:32px;
 }
