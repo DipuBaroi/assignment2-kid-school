@@ -425,3 +425,18 @@ footer marquee{
             margin: 0 auto;
         }
 }
+
+@media screen and (min-width:576px) and (max-width:992px) {
+        nav,
+        .banner-container,
+        .card-container,
+        .footer-section{
+            flex-direction: column;
+            width:100%;
+            height: auto;
+        }
+        .stories{
+            margin-top: 20px;
+        }
+
+}
